@@ -1,16 +1,84 @@
-# React + Vite
+# langextract-lite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Detailed Description
 
-Currently, two official plugins are available:
+langextract-lite is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Problem Statement
 
-## React Compiler
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Solution Overview
 
-## Expanding the ESLint configuration
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
+
+```bash
+npm ci
+npm run lint
+npm test
+npm run build
+```
+
+## Usage
+
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
